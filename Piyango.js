@@ -14,8 +14,12 @@ function calıstır(e) {
     let ondalıkKullanici = kullaniciSayisi % 10
     if (isNaN(kullaniciSayisi) || kullaniciSayisi == '') {
         alert('Lütfen Sayi Giriniz')
-
-    } else {
+    }
+    else if(kullaniciSayisi<=0||kullaniciSayisi>99)
+    {
+        alert('1 ile 99 Arası Sayi Giriniz.')
+    }
+     else {
         if (rastgeleSayi == kullaniciSayisi) {
         
             demo.innerHTML = 'TEBRİKLER 10000 TL KAZANDINIZ ' + ' Girdiğiniz Sayi: ' + kullaniciSayisi + ' Sistem Sayisi: ' + rastgeleSayi;
