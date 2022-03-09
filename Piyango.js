@@ -15,31 +15,30 @@ function calıstır(e) {
     if (isNaN(kullaniciSayisi) || kullaniciSayisi == '') {
         alert('Lütfen Sayi Giriniz')
     }
-    else if(kullaniciSayisi<=0||kullaniciSayisi>99)
-    {
+    else if (kullaniciSayisi <= 0 || kullaniciSayisi > 99) {
         alert('1 ile 99 Arası Sayi Giriniz.')
     }
-     else {
+    else {
         if (rastgeleSayi == kullaniciSayisi) {
-        
+
             demo.innerHTML = 'TEBRİKLER 10000 TL KAZANDINIZ ' + ' Girdiğiniz Sayi: ' + kullaniciSayisi + ' Sistem Sayisi: ' + rastgeleSayi;
-            
+
         }
 
         else if (birlik === ondalıkKullanici && ondalık === BirlerKullanici) {
-            
+
             demo.innerHTML = 'TEBRİKLER 5000 TL KAZANDINIZ ' + 'Girdiğiniz Sayi: ' + kullaniciSayisi + ' Sistem Sayisi: ' + rastgeleSayi;
-        
+
         }
 
         else if (birlik === BirlerKullanici || birlik === ondalıkKullanici || ondalık === BirlerKullanici || ondalık === ondalıkKullanici) {
-            
+
             demo.innerHTML = 'TEBRİKLER 1000 TL KAZANDINIZ ' + ' Girdiğiniz Sayi: ' + kullaniciSayisi + ' Sistem Sayisi: ' + rastgeleSayi;
-           
+
         }
         else {
             demo.innerHTML = 'Tekrar Deneyiniz!!!! ' + ' \n Girdiğiniz Sayi: ' + kullaniciSayisi + ' Sistem Sayisi: ' + rastgeleSayi;
-            
+
         }
 
     }
