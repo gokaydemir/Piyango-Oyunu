@@ -1,0 +1,26 @@
+body{
+    background-image: linear-gradient(to right, rgb(0, 69, 218), rgb(82, 122, 233))
+}
+form{
+    display: flex;
+    justify-content: center;
+    padding-top: 30vh;
+    margin:.5vh 62vh;
+}
+#text{
+    outline: none;
+    padding: 15px;
+    
+    
+}
+#demo{
+    display: flex;
+    justify-content: center;
+    padding-top:4vh ;
+    color: white;
+   
+    
+}
+#buton{
+    margin-left:.2vh;
+}
